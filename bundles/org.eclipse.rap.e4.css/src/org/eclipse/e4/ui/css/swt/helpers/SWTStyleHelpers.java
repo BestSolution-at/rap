@@ -187,11 +187,12 @@ public class SWTStyleHelpers {
 				addSWTStyle(swtStyles, "SWT.CLOSE", separator);
 		} catch (Exception e) {
 		}
-		try {
-			if ((style & SWT.MENU) != 0)
-				addSWTStyle(swtStyles, "SWT.MENU", separator);
-		} catch (Exception e) {
-		}
+//FIXME RAP API MISSING		
+//		try {
+//			if ((style & SWT.MENU) != 0)
+//				addSWTStyle(swtStyles, "SWT.MENU", separator);
+//		} catch (Exception e) {
+//		}
 		try {
 			if ((style & SWT.MIN) != 0)
 				addSWTStyle(swtStyles, "SWT.MIN", separator);
@@ -322,11 +323,12 @@ public class SWTStyleHelpers {
 				addSWTStyle(swtStyles, "SWT.RIGHT_TO_LEFT", separator);
 		} catch (Exception e) {
 		}
-		try {
-			if ((style & SWT.MIRRORED) != 0)
-				addSWTStyle(swtStyles, "SWT.MIRRORED", separator);
-		} catch (Exception e) {
-		}
+//FIXME RAP API MISSING		
+//		try {
+//			if ((style & SWT.MIRRORED) != 0)
+//				addSWTStyle(swtStyles, "SWT.MIRRORED", separator);
+//		} catch (Exception e) {
+//		}
 		try {
 			if ((style & SWT.VIRTUAL) != 0)
 				addSWTStyle(swtStyles, "SWT.VIRTUAL", separator);
@@ -442,31 +444,32 @@ public class SWTStyleHelpers {
 				addSWTStyle(swtStyles, "SWT.FILL", separator);
 		} catch (Exception e) {
 		}
-		try {
-			if ((style & SWT.DBCS) != 0)
-				addSWTStyle(swtStyles, "SWT.DBCS", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.ALPHA) != 0)
-				addSWTStyle(swtStyles, "SWT.ALPHA", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.NATIVE) != 0)
-				addSWTStyle(swtStyles, "SWT.NATIVE", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.PHONETIC) != 0)
-				addSWTStyle(swtStyles, "SWT.PHONETIC", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.ROMAN) != 0)
-				addSWTStyle(swtStyles, "SWT.ROMAN", separator);
-		} catch (Exception e) {
-		}
+//FIXME RAP API MISSING		
+//		try {
+//			if ((style & SWT.DBCS) != 0)
+//				addSWTStyle(swtStyles, "SWT.DBCS", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.ALPHA) != 0)
+//				addSWTStyle(swtStyles, "SWT.ALPHA", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.NATIVE) != 0)
+//				addSWTStyle(swtStyles, "SWT.NATIVE", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.PHONETIC) != 0)
+//				addSWTStyle(swtStyles, "SWT.PHONETIC", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.ROMAN) != 0)
+//				addSWTStyle(swtStyles, "SWT.ROMAN", separator);
+//		} catch (Exception e) {
+//		}
 		try {
 			if ((style & SWT.ICON_ERROR) != 0)
 				addSWTStyle(swtStyles, "SWT.ICON_ERROR", separator);
@@ -614,36 +617,37 @@ public class SWTStyleHelpers {
 				addSWTStyle(swtStyles, "SWT.JOIN_BEVEL", separator);
 		} catch (Exception e) {
 		}
-		try {
-			if ((style & SWT.LINE_SOLID) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_SOLID", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.LINE_DASH) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_DASH", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.LINE_DOT) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_DOT", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.LINE_DASHDOT) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_DASHDOT", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.LINE_DASHDOTDOT) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_DASHDOTDOT", separator);
-		} catch (Exception e) {
-		}
-		try {
-			if ((style & SWT.LINE_CUSTOM) != 0)
-				addSWTStyle(swtStyles, "SWT.LINE_CUSTOM", separator);
-		} catch (Exception e) {
-		}
+//FIXME RAP API MISSING		
+//		try {
+//			if ((style & SWT.LINE_SOLID) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_SOLID", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.LINE_DASH) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_DASH", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.LINE_DOT) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_DOT", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.LINE_DASHDOT) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_DASHDOT", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.LINE_DASHDOTDOT) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_DASHDOTDOT", separator);
+//		} catch (Exception e) {
+//		}
+//		try {
+//			if ((style & SWT.LINE_CUSTOM) != 0)
+//				addSWTStyle(swtStyles, "SWT.LINE_CUSTOM", separator);
+//		} catch (Exception e) {
+//		}
 		return swtStyles.toString();
 	}
 
