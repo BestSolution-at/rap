@@ -30,6 +30,8 @@ import org.eclipse.swt.events.HelpListener;
 import org.eclipse.swt.events.KeyListener;
 import org.eclipse.swt.events.MenuDetectListener;
 import org.eclipse.swt.events.MouseListener;
+import org.eclipse.swt.events.MouseMoveListener;
+import org.eclipse.swt.events.MouseTrackListener;
 import org.eclipse.swt.events.PaintListener;
 import org.eclipse.swt.events.TouchListener;
 import org.eclipse.swt.events.TraverseListener;
@@ -2547,5 +2549,24 @@ public abstract class Control extends Widget implements Drawable {
     if( menu != null ) {
       menu.removeDisposeListener( menuDisposeListener );
     }
+  }
+  
+  //FIXME RAP API MISSING
+  public void addPaintListener( PaintListener createBorderPaintListener ) {
+  }
+  //FIXME RAP API MISSING
+  public void addMouseTrackListener( MouseTrackListener mouseHoverListener ) {
+  }
+  //FIXME RAP API MISSING
+  public void removeMouseTrackListener( MouseTrackListener mouseHoverListener ) {
+  }
+  //FIXME RAP API MISSING
+  public void addMouseMoveListener(MouseMoveListener mouseMoveListener) {
+  }
+  //FIXME RAP API MISSING
+  public void removeMouseMoveListener(MouseMoveListener mouseMoveListener) {
+  }
+  //FIXME RAP API MISSING
+  public void setCapture( boolean b ) {
   }
 }
