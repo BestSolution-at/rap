@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Swt
+Bundle-SymbolicName: org.eclipse.rap.e4.swt
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="2.3.0"
+Export-Package: org.eclipse.swt.custom
