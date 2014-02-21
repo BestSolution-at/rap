@@ -3515,34 +3515,34 @@ public class SWT {
 
   private static final int RWT_VERSION = getVersion( 1, 500 );
   
-  //FIXME RAP API MISSING
-  public static final int LINE_SOLID = 1;
-  //FIXME RAP API MISSING
-  public static final int LINE_DASH = 2;
-  //FIXME RAP API MISSING
-  public static final int LINE_DOT = 3;
-  //FIXME RAP API MISSING
-  public static final int LINE_DASHDOT = 4;
-  //FIXME RAP API MISSING
-  public static final int LINE_DASHDOTDOT = 5;
-  //FIXME RAP API MISSING
-  public static final int LINE_CUSTOM = 6;
-  //FIXME RAP API MISSING
-  public static final int MENU = CLOSE;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_SOLID = 1;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_DASH = 2;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_DOT = 3;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_DASHDOT = 4;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_DASHDOTDOT = 5;
+//  //FIXME RAP API MISSING
+//  public static final int LINE_CUSTOM = 6;
+//  //FIXME RAP API MISSING
+//  public static final int MENU = CLOSE;
   //FIXME RAP API MISSING
   public static final int RIGHT_TO_LEFT = 1 << 26;
-  //FIXME RAP API MISSING
-  public static final int MIRRORED = 1 << 27;
-  //FIXME RAP API MISSING
-  public static final int DBCS = 1 << 1;
-  //FIXME RAP API MISSING
-  public static final int ALPHA = 1 << 2;
-  //FIXME RAP API MISSING
-  public static final int NATIVE = 1 << 3;
-  //FIXME RAP API MISSING
-  public static final int PHONETIC = 1 << 4;
-  //FIXME RAP API MISSING
-  public static final int ROMAN = 1 << 5;
+//  //FIXME RAP API MISSING
+//  public static final int MIRRORED = 1 << 27;
+//  //FIXME RAP API MISSING
+//  public static final int DBCS = 1 << 1;
+//  //FIXME RAP API MISSING
+//  public static final int ALPHA = 1 << 2;
+//  //FIXME RAP API MISSING
+//  public static final int NATIVE = 1 << 3;
+//  //FIXME RAP API MISSING
+//  public static final int PHONETIC = 1 << 4;
+//  //FIXME RAP API MISSING
+//  public static final int ROMAN = 1 << 5;
   //FIXME RAP API MISSING
   public static final int COLOR_LINK_FOREGROUND = 36;
   //FIXME RAP API MISSING
