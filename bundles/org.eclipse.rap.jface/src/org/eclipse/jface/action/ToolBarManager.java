@@ -456,4 +456,7 @@ public class ToolBarManager extends ContributionManager implements
 		}
 		return item.isVisible();
 	}
+	//FIXME RAP API MISSING
+	public void setStyle(int style) {
+	}
 }
