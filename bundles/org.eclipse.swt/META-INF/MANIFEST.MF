@@ -3,4 +3,5 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Swt
 Bundle-SymbolicName: org.eclipse.swt
 Bundle-Version: 3.9.0.qualifier
-Require-Bundle: org.eclipse.rap.rwt;bundle-version="2.3.0";visibility:=reexport
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="2.3.0";visibility:=reexport,
+ org.eclipse.rap.e4.swt;bundle-version="1.0.0";visibility:=reexport
