@@ -2409,4 +2409,18 @@ CTabItem[] items = itemHolder.getItems();
       return selectionGraphicsAdapter;
     }
   }
+  
+  //FIXME RAP API MISSING
+  public void setSimple( boolean isSimple ) {
+  }
+  //FIXME RAP API MISSING
+  public boolean getSimple() {
+    return false;
+  }
+  //FIXME RAP API MISSING
+  public void setBackground( Color[] colors, int[] percents, boolean b ) {
+  }
+  //FIXME RAP API MISSING
+  public void setBackground( Color object, Color object2 ) {
+  }
 }
