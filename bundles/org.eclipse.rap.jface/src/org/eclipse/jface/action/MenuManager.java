@@ -16,6 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.core.runtime.ListenerList;
+import org.eclipse.jface.internal.MenuManagerEventHelper;
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.resource.JFaceResources;
 import org.eclipse.jface.resource.LocalResourceManager;
@@ -463,7 +464,9 @@ public class MenuManager extends ContributionManager implements IMenuManager {
         if (removeAllWhenShown) {
 			removeAll();
 		}
+        MenuManagerEventHelper.getInstance().showEventPreHelper(this);
         fireAboutToShow(this);
+        MenuManagerEventHelper.getInstance().showEventPostHelper(this);
         update(false, false);
     }
 
@@ -471,7 +474,9 @@ public class MenuManager extends ContributionManager implements IMenuManager {
      * Notifies all listeners that this menu is about to disappear.
      */
     private void handleAboutToHide() {
+    	MenuManagerEventHelper.getInstance().hideEventPreHelper(this);
         fireAboutToHide(this);
+        MenuManagerEventHelper.getInstance().hideEventPostHelper(this);
     }
 
     /**
@@ -987,5 +992,12 @@ public class MenuManager extends ContributionManager implements IMenuManager {
 			return v.booleanValue();
 		}
 		return item.isVisible();
+	}
+
+	//FIXME RAP API MISSING
+	public void setMenuText(String text) {
+	}
+	//FIXME RAP API MISSING
+	public void setImageDescriptor(ImageDescriptor imageDescriptor) {
 	}
 }
