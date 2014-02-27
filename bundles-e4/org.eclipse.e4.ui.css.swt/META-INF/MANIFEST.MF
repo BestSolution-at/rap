@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Swt
+Bundle-SymbolicName: org.eclipse.e4.ui.css.swt
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.e4.ui.internal.css.swt.CSSActivator
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.rap.e4.css;bundle-version="1.0.0";visibility:=reexport
