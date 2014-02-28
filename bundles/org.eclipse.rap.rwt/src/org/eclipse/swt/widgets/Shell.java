@@ -1308,4 +1308,14 @@ public class Shell extends Decorations {
     }
     super.reskinChildren( flags );
   }
+  
+  @Override
+  public void moveAbove( Control control ) {
+    if( getParent() != null ) {
+      super.moveAbove( control );  
+    } else {
+      // not sure what to do for top level shells, bringToTop maybe??
+      bringToTop();
+    }
+  }
 }
