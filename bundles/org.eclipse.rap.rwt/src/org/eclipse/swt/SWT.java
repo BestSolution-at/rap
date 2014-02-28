@@ -3512,6 +3512,10 @@ public class SWT {
    * @since 1.4
    */
   public static final int ID_QUIT = -6;
+  
+  //FIXME RAP missing
+  public static final int TRAVERSE_ARROW_NEXT = 1 << 6;
+  public static final int TRAVERSE_ARROW_PREVIOUS = 1 << 5;
 
   private static final int RWT_VERSION = getVersion( 1, 500 );
 
